@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Compose renders its own UI entirely. This XML theme only sets the
+        window background and hides the system title bar. We deliberately
+        use NO parent so AAPT never needs to resolve an android:style/* ref.
+    -->
+    <style name="Theme.JarvisAI">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">#FF050D1A</item>
+        <item name="android:statusBarColor">#FF050D1A</item>
+        <item name="android:navigationBarColor">#FF0A1628</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
